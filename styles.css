@@ -1,0 +1,117 @@
+@import url('https://fonts.cdnfonts.com/css/campton');
+
+body{
+    margin: 0px;
+    min-width: 1000px;
+    font-family: 'Campton', sans-serif;
+}
+section{
+    display: flex;
+    width: 100%;
+    min-height: 100vh;
+    background-image: url(/static/vackground.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.login-container{
+    width: 80%;
+    margin:20px auto;
+    display: flex;
+   
+}
+.left{
+    position: relative;
+    width: 40%;
+    background-color:#084B3E ;
+    border-radius:50px 0px 0px 50px;
+
+}
+.right{
+    width: 60%;
+    background-color:white;
+    border-radius:0px 50px 50px 0px;
+}
+.left .logo{
+   margin:33px 50px;
+} 
+.left .logo img{
+    width: 170px;
+}
+.left .text{
+    position: absolute;
+    bottom: 0px;
+    width: 73%;
+    margin-left:50px;
+    font-size: 39px;
+    font-weight: 500;
+    color:  #F9E2BA;
+
+}
+.form-container{
+    width: 70%;
+    margin-left: 50px;
+    font-weight: 550;
+    font-size: 16px;
+    line-height: 19px;
+    letter-spacing: 0.206977px;
+    color: #343434;
+}
+
+.form-container h1{
+    width: 70%;
+    font-weight: 500;
+    font-size: 34px;
+    line-height: 42px;
+    color:  #232323;;
+}
+.input-container{
+    margin: 50px 0px;
+}
+.input-container label, input{
+    display: block;
+}
+.input-container span{
+    color: #E33D5F;
+}
+.input-container input{
+    width: 100%;
+    font-size: 16px;
+    border: unset;
+    border-bottom: 1px solid #343434;
+}
+.input-container input:focus{
+    outline: unset;
+    border-bottom: 2px solid #343434;
+}
+.form-container .button{
+    width: 100%;
+    margin-bottom: 50px;
+    padding: 26px 0px;
+    border-radius: 20px;
+    font-size: 26px;
+    text-align: center;
+    color: white;
+    background: #00C38B;
+    cursor: pointer;
+}
+.form-container .terms{
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 16px;
+    color: #BDBDBD;
+}
+.form-container .terms a{
+    color: #BDBDBD;
+}
+.form-container .terms span{
+    color: #19B07E;
+    cursor: pointer;
+}
+.form-container .error-msg{
+    display: none;
+    text-align: center;
+    margin: 10px auto;
+    color: #E33D5F;
+}
